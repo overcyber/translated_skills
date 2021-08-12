@@ -1,0 +1,15 @@
+{
+	"CO2AlertHigh": 800,
+	"GasAlertHigh": 200,
+	"HumidityAlertHigh": 90,
+	"HumidityAlertLow": 20,
+	"NoiseAlert": 130,
+	"PressureAlertHigh": 1100,
+	"PressureAlertLow": 700,
+	"TemperatureAlertHigh": 34,
+	"TemperatureAlertLow": 0,
+	"TooMuchRainAlert": 5,
+	"UVIndexAlert": 10,
+	"WindAlertFromKmh": 5,
+	"alertWhenSleeping": "GasAlertHigh, CO2AlertHigh"
+}

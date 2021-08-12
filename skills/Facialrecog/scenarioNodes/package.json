@@ -1,0 +1,15 @@
+{
+	"name": "facialrecog",
+	"version": "0.0.1",
+	"category": "projectalice",
+	"dependencies": {},
+	"author": "overcyber",
+	"license": "GPLv3",
+	"node-red": {
+		"nodes": {
+			"facialrecognition": "facialrecognition.js"
+
+		}
+	},
+	"devDependencies": {}
+}

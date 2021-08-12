@@ -1,0 +1,145 @@
+{
+    "skill": "Broadcast",
+    "slotTypes": [
+		{
+			"name": "Broadcast",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "broadcast",
+					"synonyms": [
+						"Broadcast"
+					]
+				}
+			]
+		},
+		{
+			"name": "replyLastBroadcast",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "reply",
+					"synonyms": [
+						"last",
+						"previous"
+					]
+				}
+			]
+		},
+		{
+			"name": "GetBase",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "default",
+					"synonyms": [
+						"base",
+						"main",
+						"alice"
+					]
+				}
+			]
+		}
+	],
+    "intents": [
+        {
+        	"name": "AddBroadcast",
+        	"enabledByDefault": true,
+        	"utterances": [
+				"send a {broadcast:=>Broadcast}",
+				"send a {broadcast:=>Broadcast} please",
+				"{broadcast:=>Broadcast} ",
+				"{broadcast:=>Broadcast} to the {kitchen:=>Location} ",
+				"{broadcast:=>Broadcast} to the {bedroom:=>Location}",
+				"{broadcast:=>Broadcast} to the {outside:=>Location}"
+			],
+        	"slots": [
+        		{
+        			"name": "Broadcast",
+        			"required": false,
+        			"type": "Broadcast",
+        			"missingQuestion": ""
+        		},
+				{
+					"name": "Location",
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+        	]
+        },
+		{
+			"name": "BroadcastTime",
+			"enabledByDefault": false,
+			"utterances": [
+				"{in 1 hour:=>Duration}",
+				"{in 10 minutes:=>Duration}",
+				"{in 3 hours:=>Duration}",
+				"{in 1 minute:=>Duration}"
+			],
+			"slots": [
+				{
+					"name": "Duration",
+					"required": false,
+					"type": "snips/duration",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "BroadcastRoom",
+			"enabledByDefault": false,
+			"utterances": [
+				"The {kitchen:=>Location} please",
+				"{garage:=>Location}",
+				"In the {bathroom:=>Location}",
+				"In the {bedroom:=>Location}",
+				"{caravan:=>Location}",
+				"the {main:=>GetBase} unit",
+				"{default:=>GetBase}",
+				"the {base:=>GetBase} device",
+				"to {alice:=>GetBase}"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				},
+				{
+					"name": "GetBase",
+					"required": false,
+					"type": "GetBase",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "BroadcastReply",
+			"enabledByDefault": true,
+			"utterances": [
+				"{reply:=>lastBroadcast} to the {last:=>lastBroadcast} broadcast",
+				"{reply:=>lastBroadcast} to the {previous:=>lastBroadcast} broadcast",
+				"{reply:=>lastBroadcast} to broadcast",
+				"{reply:=>lastBroadcast} to {last:=>lastBroadcast} broadcast",
+				"please {reply:=>lastBroadcast} to that broadcast",
+				"{reply:=>lastBroadcast} to the last message"
+			],
+			"slots": [
+				{
+					"name": "lastBroadcast",
+					"required": false,
+					"type": "replyLastBroadcast",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

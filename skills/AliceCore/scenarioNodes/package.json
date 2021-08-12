@@ -1,0 +1,23 @@
+{
+	"name": "alicecore",
+	"version": "1.0.0",
+	"category": "projectalice",
+	"dependencies": {
+		"is-utf8": "^0.2.1",
+		"mqtt": "^4.2.1",
+		"url": "^0.11.0",
+		"https-proxy-agent": "^5.0.0"
+	},
+	"author": "Psycho",
+	"license": "GPLv3",
+	"node-red": {
+		"nodes": {
+      "aliceMqtt": "aliceMqtt.js",
+      "onAliceEvent": "onAliceEvent.js",
+      "sendMsg": "sendMsg.js",
+      "say": "say.js",
+      "triggerAction": "triggerAction.js"
+    }
+	},
+	"devDependencies": {}
+}

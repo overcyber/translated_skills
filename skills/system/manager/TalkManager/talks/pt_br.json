@@ -1,0 +1,95 @@
+{
+	"noAccess": {
+		"default": [
+			"Sorry, I can't, you don't have enough privileges to do that",
+			"Not possible, your access level is too low for this"
+		],
+		"short":[
+			"No access"
+		]
+	},
+	"unknowUser": {
+		"default": [
+			"I'm sorry but I don't know who you are",
+			"Sorry, I can't, I don't know you",
+			"You should call me by my name so I would know who you are"
+		],
+		"short": [
+			"Eu não te conheço"
+		]
+	},
+	"notUnderstood": {
+		"default": [
+			"I'm sorry but I'm not sure I understood what you want",
+			"I did not understand what you want",
+			"Sorry? Can you repeat?",
+			"Sorry? I'm not sure what you're on about",
+			"I can't make sense of that, please rephrase",
+			"Didn't quite understand that, try again please",
+			"Not too sure I understood, Please rephrase that!"
+		],
+		"short": [
+			"Desculpe ?"
+		]
+	},
+	"notUnderstoodEnd": {
+		"default": [
+			"Desculpe mas eu não consigo te entender",
+			"Desculpa nao consigo entender o que voce quer",
+			"Ok, paramos por aqui, não consigo entender sua solicitação",
+			"Ok, pare, eu simplesmente não entendo"
+		],
+		"short": [
+			"Ok, pare, Eu não entendo você"
+		]
+	},
+	"youreWelcome": {
+		"default": [
+			"Seja bem vindo!",
+			"O prazer é meu!",
+			"Não tem problema, a qualquer hora!"
+		]
+	},
+	"error": {
+		"default": [
+			"Algo deu errado, verifique meus registros"
+		]
+	},
+	"newDeviceAdditionFailed": {
+		"default": [
+			"Desculpe, ocorreu um problema ao adicionar o novo dispositivo"
+		]
+	},
+	"newDeviceAdditionSuccess": {
+		"default": [
+			"O novo dispositivo foi encontrado e adicionado corretamente!"
+		]
+	},
+	"maxOneAlicePerRoom": {
+		"default": [
+			"I am sorry but you can't have more than one Alice satellite per room",
+			"I'm so sorry but I can only have one Alice satellite per room"
+		]
+	},
+	"wakewordCaptured": [
+		"I have captured your wakeword and trimmed it, let's check it",
+		"Ok, captured and trimmed, I'm playing it for you to review",
+		"Got it, I reworked it a little, let's review it"
+	],
+	"isWakewordSampleOk": [
+		"Do you think it was ok? Was it not enough cut or maybe too much?"
+	],
+	"offline": [
+		"I'm sorry but I can't do that while being offline"
+	],
+	"notification": [
+		"Sim {0}?",
+		"sim ?",
+		"Eu estou ouvindo!",
+		"Sou toda ouvidos!",
+		"Ao seu serviço {0}!",
+		"E ai blz {0}!",
+		"O que manda?",
+		"Como eu posso te ajudar {0}!"
+	]
+}

@@ -1,0 +1,455 @@
+{
+	"isThatWhatYouMeant": [
+        "<break time=\"500ms\"/>E' veramente quello che intendevi?",
+        "<break time=\"500ms\"/>Era quello che intendevi poco fa?",
+        "<break time=\"500ms\"/>E' quello che intendevi prima?"
+    ],
+    "okAddedUtterance": [
+        "Ok, grande, me lo ricorderò, lasciami un po di tempo per prepararmi.",
+        "Annotato, mi preparerò rapidamente. Dovrei tornare operativa fra poco.",
+        "Ok, non lo dimenticherò. Mi sto preparando, dovrei essere operativa a breve."
+    ],
+	"newDevice": {
+		"default": [
+			"Una nuova dispositivo di tipo {} sta tentando di connettersi, vuoi che l'aggiunga ai dispositivi?"
+		]
+	},
+	"confirmUnregister": {
+		"default": [
+			"Ho rimosso questo dispositivo"
+		]
+	},
+	"errorUnregister": {
+		"default": [
+			"Il dispositivo non è registrato sulla mia rete"
+		]
+	},
+	"unregisterInstructions": {
+		"default": [
+			"Per favore scollega il dispositivo che vuoi rimuovere, attendi 5 secondi e ricollegalo"
+		]
+	},
+	"whichRoom": {
+		"default": [
+			"In che stanza si troverà il dispositivo che vuoi aggiungere?",
+			"Certo, in che stanza stai mettendo questo nuovo dispositivo?"
+		]
+	},
+	"confirmIgnore": {
+		"default": [
+			"Ok, ignorerò questo dispositivo"
+		]
+	},
+	"confirmAddition": {
+		"default": [
+			"Ok, ho aggiunto questo dispositivo",
+			"Ho aggiunto questo nuovo dispositivo"
+		]
+	},
+	"busy": {
+		"default": [
+			"Mi dispiace, ma al momento sono occupato, per favore attendi",
+			"Aspetta un attimo, sono impegnato",
+			"Solo un minuto, sono un pò impegnato"
+		]
+	},
+	"langSwitch": {
+		"default": [
+			"Ok, parliamo in {} allora!",
+			"Certo, posso parlare in {}",
+			"No problem, passiamo al {}"
+		],
+		"short": [
+			"Ok",
+			"sisi"
+		]
+	},
+	"noDestinationLanguage": {
+		"default": [
+			"Mi spiace, ma non so come passare a questa lingua"
+		]
+	},
+	"langNotSupported": {
+		"default": [
+			"Mi dispiace, ma non parlo {}",
+			"Perdonami, non conosco la lingua {}"
+		]
+	},
+	"langSwitchFailed": {
+		"default": [
+			"Mi spiace, non riesco a cambiare lingua",
+			"Scusami, il cambiamento di lingua è fallito per qualche ragione"
+		]
+	},
+	"noActiveSkill": {
+		"default": [
+			"Mi dispiace, non hai nessuna skill attiva per gestire la richiesta"
+		],
+		"short": [
+			"Nessuna skill attiva"
+		]
+	},
+	"noProjectIdSet": {
+		"default": [
+			"Non posso, non hai configurato un ID progetto nelle impostazioni"
+		]
+	},
+	"noAssistantUpdateOffline": {
+		"default": [
+			"Mi dispiace, ma non posso aggiornare nulla, se sono offline"
+		]
+	},
+	"confirmAssistantUpdate": {
+		"default": [
+			"Ok, lo faccio subito! Guarda che ci vorrà un pò!",
+			"Certo, aggiorno i miei pacchetti. Ci metterò un pò!"
+		]
+	},
+	"confirmBundleUpdate": {
+		"default": [
+			"Ok, ho finito di aggiornare i pacchetti",
+			"Ho appena finito di aggiornare i pacchetti"
+		],
+		"short": [
+			"Fatto"
+		]
+	},
+	"bundleUpdateFailed": {
+		"default": [
+			"Mi dispiace, non sono riuscita ad aggiornare i pacchetti",
+			"Mi dispiace, qualcosa è andato storto nell'aggiornare i pacchetti"
+		],
+		"short": [
+			"Errore"
+		]
+	},
+	"confirmReboot": {
+		"default": [
+			"Sei sicuro di voler riavviare?",
+			"Ci vorrà un pò per riavviare, sei sicuro?"
+		]
+	},
+	"askRebootDevices": {
+		"default": [
+			"Vuoi che riavvii anche le skill esterne?",
+			"Devo anche riavviare le skill esterne?"
+		]
+	},
+	"confirmRebooting": {
+		"default": [
+			"Ok, ora riavvio!",
+			"Mi sto spegnendo, a presto!"
+		]
+	},
+	"confirmRebooted": {
+		"default": [
+			"Ho appena riavviato, come mi hai chiesto",
+			"Rieccomi! appena riavviata!"
+		]
+	},
+	"confirmRebootingDevices": {
+		"default": [
+			"Appena riavviata, adesso riavvio le skill esterne",
+			"Rieccomi! Ora riavvio anche le skill esterne, come mi hai chiesto"
+		]
+	},
+	"abortReboot": {
+		"default": [
+			"Ok, annullo il riavvio",
+			"Ok, come non detto, annullo il reboot"
+		]
+	},
+	"internetBack": {
+		"default": [
+			"Adesso sono di nuovo su Internet, passo all'ASR online"
+		]
+	},
+	"internetLost": {
+		"default": [
+			"Non sono più connessa ad Internet, passo all'ASR offline"
+		]
+	},
+	"listeningAgain": {
+		"default": [
+			"Hey, per tua informazione, adesso ti sto ascoltando",
+			"Ok, adesso ti ascolto di nuovo"
+		]
+	},
+	"confirmDeviceAddingMode": {
+		"default": [
+			"Ok, cercherò il nuovo dispositivo per 5 minuti, puoi accenderlo, adesso"
+		]
+	},
+	"requireTasmotaSkill": {
+		"default": [
+			"Mi dispiace, per farlo ho bisogno che abiliti la skill Tasmota"
+		]
+	},
+	"requireZigbeeSkill": [
+		"Mi dispiace, per farlo ho bisogno che abiliti la skill ZigBee"
+	],
+	"whatHardware": {
+		"default": [
+			"Che tipo di dispositivo vuoi aggiungere?",
+			"Certo, che tipo di dispositivo?"
+		]
+	},
+	"usbDeviceFound": {
+		"default": [
+			"Trovato! Un pò di pazienza, ci metterò qualche minuto!"
+		]
+	},
+	"unknownHardware": {
+		"default": [
+			"Mi dispiace, non conosco questo tipo di hardware"
+		]
+	},
+	"whatConfig": {
+		"default": [
+			"Non hai specificato nessuna configurazione, quindi dimmi, quale scegli?",
+			"Quale configurazione preferisci?"
+		]
+	},
+	"welcomeToProjectAlice": {
+		"default": [
+			"<s>Benvenuto al Project Alice!</s><s>A quanto pare, mi hai appena installata, così ho creato un utente amministratore, e gli ho impostato un pin, come configurato</s><s>Mi piacerebbe conoscerti meglio, ed imparare a riconoscere la tua voce.</s><s>Per farlo, apri la mia interfaccia, e naviga fino alla sezione admin , sotto la voce \"Utilities\" scegli \"Aggiungi utente\".</s><s>Sarà un piacere esserti d'aiuto!</s>"
+		]
+	},
+	"addWakewordWhatUser": {
+		"default": [
+			"Certo! Per quale utente vuoi aggiungere una wakeword?",
+			"Per quale utente vuoi che aggiunga una wakeword?"
+		],
+		"short": [
+			"Per quale utente?"
+		]
+	},
+	"tuneWakewordWhatUser": {
+		"default": [
+			"Certo! Quale wakeword vuoi regolare?",
+			"Per quale utente vuoi regolare la wakeword?"
+		],
+		"short": [
+			"Per quale utente?"
+		]
+	},
+	"tuneWakewordNoWakeword": [
+		"Questo utente non ha ancora una wakeword assegnata, prima creane una!",
+		"Scusa ma questo utente non ha ancora una wakeword, prima creane una!"
+	],
+	"wakewordTuningWhatProblem":[
+		"Ok, quale sembra essere il problema? 1<break time=\"150ms\"/> Non reagisco quando mi chiami o <break time=\"50ms\"/>2<break time=\"150ms\"/> Reagisco troppo quando non dovrei?"
+	],
+	"explainWakewordTuningUp": [
+		"Proviamo a fare così! Chiamami per nome e io proverò a registrare. Se non ti sento entro 5 secondi te lo farò sapere e proveremo di nuovo! Ok, chiamami per nome!"
+	],
+	"explainWakewordTuningDown": [
+		"Scusa! Ho impostato una sensibilità inferiore, spero ora vada meglio! Prova a chiamamrmi perfavore!",
+		"Sono così spiacente per questo fastidio! Ho appena impostato una sensibilità inferiore, spero ora vada meglio! Prova a chiamarmi perfavore!",
+		"Ouch, scusa! Ho appena abbassato la sensibilità, spero ora vada meglio! Prova a chiamarmi perfavore!"
+	],
+	"tuneWakewordDidntCatch": [
+		"Non ho ancora sentito la wakeword, mi dispiace! Ho cambiato la sensibilità di nuovo, prova a chiamarmi nuovamente!",
+		"Non ti ho sentito, mi dispiace molto! Ho leggermente modificato la sensibilitò, Prova a chiamarmi nuovamente!",
+		"Niente, mi dispiace, non ho sentito la tua chiamata. Ho abbassato la sensibilità nuovamente, prova a chiamarmi nuovamente perfavore!"
+	],
+	"tuneWakewordStop": [
+		"Dovremmo fermarci adesso, la sensibilità non può essere più alta di 0.8 o più bassa di 0.2. La mia migliore ipotesi è che la tua wakeword è di bassa qualità. Magari potresti provare ad eseguire di nuovo il training?"
+	],
+	"tuneWakewordUpWorked": [
+		"Hey, ti ho sentito! Sembra funzionare meglio adesso? Lieto che sembri funzionare!",
+		"Si! Ho sentito la wakeword! Lieto che adesso sembri funzionare!"
+	],
+	"tuneWakewordDownWorked": [
+		"Ok, bene, non l'ho sentita! Imposto l'ultimo livello registrato e siamo a posto! Lieto che sembri funzionare!",
+		"Bene, non ti ho sentito questa volta! Torno al precedente livello e ci siamo! Lieto che adesso funzioni meglio!"
+	],
+	"tuneWakewordDownFailed": [
+		"Ti sento ancora, magari è troppo sensibile... Chiamami di nuovo!",
+		"Sentito di nuovo, dev'essere ancora troppo alto. Chiamami nuovamente!",
+		"No, ancora troppo sensibile, ti sento ancora. Chiamami ancora!"
+	],
+	"addWakewordUserNotExisting": {
+		"default": [
+			"Mi dispiace, ma l'utente {} non esiste. Prova a darmi un altro nome.",
+			"Scusa, ma non riesco a trovare {}. Prova con un altro nome, per favore.",
+			"Non trovo l'utente di nome {}. Dammi un nome utente esistente, cortesemente."
+		]
+	},
+	"explainInterfaceAuthWithKeyboard": {
+		"default": [
+			"Se vuoi accedere a questa sezione, ho bisogno di autenticarti. per favore, digita <break time=\"100ms\"/>\"admin\" <break time=\"100ms\"/> sulla tastiera",
+			"Per entrare in questa sezione, è necessaria l'autenticazione. per favore, scrivi <break time=\"100ms\"/>\"admin\" <break time=\"100ms\"/> con la tastiera"
+		],
+		"short": [
+			"Per favore digita \"admin\"."
+		]
+	},
+	"addUserPin": [
+		"<s>Impostiamo un PIN per proteggere l'account.</s><s>Per favore, dammi un codice di 4 cifre.</s><s>Assicurati di ricordarlo, ti servirà per accedere a funzioni riservate!</s>"
+	],
+	"addPinInvalid": [
+		"Mi servono quattro cifre. Per favore, dammi un altro PIN.",
+		"Quattro cifre, cortesemente, questo PIN non và bene. Per favore forniscimene un altro."
+	],
+	"addPinConfirm" : [
+		"{} {} {} {}? è corretto?",
+		"{} {} {} {}? Ho capito bene?"
+	],
+	"addWrongPin": [
+		"Ok, errore mio, perdonami. Me lo ripeti?",
+		"Mi dispiace, dimmi di nuovo il PIN."
+	],
+	"confirmUsername": {
+		"default": [
+			"Il tuo nome è {}, giusto?",
+			"Se ho capito bene, il tuo nome è {}?"
+		]
+	},
+	"confirmNewUser": {
+		"default": [
+			"Ok {}, ti ho aggiunto al gruppo degli Amministratori"
+		]
+	},
+	"soWhatsTheName": {
+		"default": [
+			"Perdonami per l'errore, mi ripeti il nome? puoi anche fare lo spelling"
+		]
+	},
+	"userAlreadyExist": {
+		"default": [
+			"Sembra che ci sia già un utente di nome {}. Dovresti usare un altro nome, per favore"
+		]
+	},
+	"addUserWakeword": {
+		"default": [
+			"Ok {}, ti ho aggiunto! Se vuoi che ti riconosca dalla voce, devi creare una wake word personalizzata. Non è obbligatorio, ma preferibile. Vuoi farlo adesso?"
+		]
+	},
+	"addWakewordDenied": {
+		"default": [
+			"Ok, come preferisci, ma così non potrò stabilire se sei a casa, dormendo, giocando, o ricordarmi cose su di te"
+		]
+	},
+	"addWakewordAccepted": {
+		"default": [
+			"<s>Ok! Mi servono tre registrazioni di te che pronunci il mio nome, in questo modo <break time=\"100ms\"/> \"Hey Alice\" <break time=\"150ms\"/></s><s>Ricordati di farlo in un luogo silenzioso, rumori o disturbatori vanno evitati</s><s>Sei pronto? Chiamami per nome!</s>"
+		]
+	},
+	"wakewordCaptureFailed": [
+		"Qualcosa è andato storto nel catturare la wake word, vuoi che sistemi e riproviamo?"
+	],
+	"howWasTheCapture": [
+		"Questa era una versione tagliata di te che pronunci la wake word. Andava bene? Altrimenti posso tagliarla un pò di più o un pò di meno, la registrazione deve contenere solo il mio nome, per intero... Dimmi \"Ok\", \"Taglia di più\", \"Taglia di meno\" o \"Ricomincia\""
+	],
+	"howWasThisCapture": [
+		"Com'era? Dimmi \"Ok\", \"Taglia di più\", \"Taglia di meno\" oppure \"Ricomincia\""
+	],
+	"howWasTheCaptureNow": [
+		"E adesso? Dimmi \"Ok\", \"Taglia di più\", \"Taglia di meno\" oppure \"Ricomincia\""
+	],
+	"sampleOk": [
+		"<s>Grande, ricevuto, ne mancano {}!</s><s>Chiamami dicendo <break time=\"100ms\"/> \"Hey Alice\" <break time=\"150ms\"/></s>",
+		"<s>Perfetto, solo {} ed abbiamo finito!</s><s>Chiamami ancora dicendo <break time=\"100ms\"/> \"Hey Alice\" <break time=\"150ms\"/></s>",
+		"<s>Ancora {}.</s><s>Chiamami ancora dicendo <break time=\"100ms\"/> \"Hey Alice\" <break time=\"150ms\"/></s>"
+	],
+	"restartSample": [
+		"<s>Ok, riproviamoci.</s> <s>Chiamami dicendo <break time=\"100ms\"/> \"Hey Alice\" <break time=\"150ms\"/></s>",
+		"<s>Certo, ricominciamo.</s> <s>Chiamami dicendo <break time=\"100ms\"/> \"Hey Alice\" <break time=\"150ms\"/></s>"
+	],
+	"wakewordCaptureDone": [
+		"Cel'hai fatta, Ho i tre campioni, e adesso, quando pronunci il mio nome dovrei essere in grado di riconoscerti! Non vedo l'ora di aiutarti!"
+	],
+	"wakewordCaptureTooNoisy": [
+		"Sembra che ci sia troppo rumore, o il tuo microfono è troppo sensibile, non sono riuscita a catturare la wake word. vogliamo riprovare?",
+		"Penso che ci sia troppo rumore, o il microfono è troppo sensibile, non riesco a capire. Riproviamo?"
+	],
+	"cancellingWakewordCapture": [
+		"Ok, lasciamo stare, per ora. Puoi riprovare dopo, con un ambiente meno rumoroso. Per ora, puoi chiamarmi dicendo <break time=\"100ms\"/> \"Hey Snips\", ma non sarò in grado di ricordare il tuo nome."
+	],
+	"addUserWhatsTheName": [
+		"Si può fare! Dunque, Signore o Signora nuovo utente, qual'è il tuo nome?",
+		"Certamente! Dimmi, come ti chiami?",
+		"Con piacere! Qual'è il tuo nome, nuovo utente?"
+	],
+	"addUserWhatAccessLevel": [
+		"Che livello di credenziali vuoi avere? C'è administrator, default, bimbo, worker e ospite",
+		"Che permessi devo garantire? puoi scegliere tra administrator, default, bimbo, worker e ospite",
+		"Dimmi, che livello di accesso devo impostare? administrator? Default? bimbo, worker, o ospite?"
+	],
+	"addUserConfirmUsername": [
+		"Ok, ho capito correttamente, il nome è {}?",
+		"Se non sbaglio il nome è {}",
+		"Il nome è {}, giusto?"
+	],
+	"addUserConfirmed": [
+		"Ok, ho aggiunto {} come {}! Se vuoi che riconosca questo utente dalla sua voce, dovrà registrare una wake word personale. Non è obbligatorio, ma raccomandato. Vogliamo farlo?"
+	],
+	"addUserAddWakewordAccepted": [
+		"<s>Ok {}! Mi servono tre registrazioni in cui dici <break time=\"100ms\"/> \"Hey Alice\" <break time=\"150ms\"/></s><s>Ricordati di farlo in un luogo silenzioso, rumori o disturbatori vanno evitati</s><s>Andiamo, chiamami per nome!</s>"
+	],
+	"addUserAddWakewordDenied": [
+		"Ok, capisco, ma ricorda che non potrò stabilire se {} è in casa, dormendo, giocando, o ricordare cose di {}."
+	],
+	"explainInterfaceAuth": {
+		"default": [
+			"Se vuoi avere accesso a questo, ho bisogno di autenticarti. Per favore, chiamami per nome!",
+			"Per avere accesso a questa parte dell'interfaccia, devi autenticarti. Per favore, dì il mio nome!"
+		],
+		"short": [
+			"Chiamami per nome, per favore"
+		]
+	},
+	"greetAndNeedPinCode": {
+		"default": [
+			"Hey {}! Mi serve il tuo PIN adesso, puoi pronunciarlo, o digitarlo nell'interfaccia!",
+			"Hi {}. Per continuare devi inserire il tuo codice PIN. puoi digitarlo, o dirlo ad alta voce."
+		],
+		"short": [
+			"Pronuncia o inserisci il PIN"
+		]
+	},
+	"userAuthUnknown": [
+		"Mi dispiace, ma non ti riconosco",
+		"Scusami, ma non so chi sei"
+	],
+	"userAuthAccessLevelTooLow": [
+		"Scusa {}, ma il tuo livello di accesso è troppo basso",
+		"{}, sfortunatamente non hai i privilegi per questo"
+	],
+	"authFailed": [
+		"Perdonami, ma non è corretto, non posso farti proseguire",
+		"nono, sbagliato, riprova"
+	],
+	"authOk": [
+		"Ok, codice verificato, adesso hai accesso",
+		"Perfetto, è corretto, accesso consentito"
+	],
+	"noWifiConf": [
+		"Non ho trovato le tue impostazioni Wifi, per favore, assicurati di averle impostate e riprova."
+	],
+	"maxDeviceOfTypeReached": [
+		"Sorry, the total limit for this device type is {}"
+	],
+	"maxDevicePerLocationReached": [
+		"The limit for this device type per location is {}"
+	],
+	"suggestSkillToDownload": [
+		"I could maybe answer if you allow me to download a skill for that! I found <lang xml:lang=\"en-US\">{}</lang>. Can I download?",
+		"I can probably answer if I can install a skill for that! I found <lang xml:lang=\"en-US\">{}</lang>. Am I allowed to install?"
+	],
+	"suggestSkillToDownloadMoreThanOne": [
+		"I could maybe answer if you allow me to download a skill for that! I found <lang xml:lang=\"en-US\">{}</lang> and <lang xml:lang=\"en-US\">{}</lang>. Can I download?",
+		"I can probably answer if I can install a skill for that! I found <lang xml:lang=\"en-US\">{}</lang> and <lang xml:lang=\"en-US\">{}</lang>. Am I allowed to install?"
+	],
+	"confirmeDownloadingSuggestedSkill": {
+		"default": [
+			"Ok, downloading, should soon be ready!",
+			"Sure, I'm installing the skill, will soon be ready to use!"
+		],
+		"short": [
+			"Ok!",
+			"Sure, right away!"
+		]
+	}
+}

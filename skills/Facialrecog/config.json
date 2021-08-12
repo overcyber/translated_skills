@@ -1,0 +1,11 @@
+{
+	"cascadefile": "~/ProjectAlice/skills/Facialrecog/haarcascade_frontalface_default.xml",
+	"datasetdir": "~/ProjectAlice/skills/Facialrecog/dataset",
+	"detectionmethod": "hog",
+	"encodingsfile": "~/ProjectAlice/skills/Facialrecog/encodings.pickle",
+	"extendDataset": true,
+	"method": "dnn",
+	"remoteCamera": "",
+	"usePiCamera": false,
+	"useUsbCamera": true
+}

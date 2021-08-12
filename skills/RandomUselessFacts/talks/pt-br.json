@@ -1,0 +1,7 @@
+{
+	"error": {
+		"default": [
+			"Sorry, something went wrong fetching a useless fact"
+		]
+	}
+}

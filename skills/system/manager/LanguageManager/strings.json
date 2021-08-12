@@ -1,0 +1,328 @@
+{
+	"outside": {
+		"en": [
+			"outside"
+		],
+		"fr": [
+			"dehors"
+		],
+		"de": [
+			"draussen"
+		],
+		"it": [
+			"fuori"
+		],
+		"pt": [
+			"fora",
+			"lado de fora"
+		],
+		"pt_br": [
+			"fora",
+			"lado de fora"
+		],
+		"pl": [
+			"na zewnątrz",
+			"na dworze"
+		]
+	},
+	"intentSeparator": {
+		"en": [
+			" and also "
+		],
+		"fr": [
+			" et aussi "
+		],
+		"de": [
+			" und auch "
+		],
+		"it": [
+			" ed anche "
+		],
+		"pt": [
+			" e também "
+		],
+		"pt_br": [
+			" e também "
+		],
+		"pl": [
+			" a także "
+		]
+	},
+	"inThe": {
+		"en": [
+			"in the room ",
+			"in the ",
+			"in room ",
+			"in "
+		],
+		"fr": [
+			"dans la pièce ",
+			"dans la ",
+			"dans le ",
+			"au "
+		],
+		"de": [
+			"in dem Raum ",
+			"in dem ",
+			"in Raum ",
+			"in "
+		],
+		"it": [
+			"nella ",
+			"nello ",
+			"nel ",
+			"nei ",
+			"dentro ",
+			"in "
+		],
+		"pt": [
+			"no quarto ",
+			"na sala ",
+			"dentro ",
+			"no ",
+			"nele ",
+			"dentro dele"
+		],
+		"pt_br": [
+			"no quarto ",
+			"na sala ",
+			"dentro ",
+			"no ",
+			"nele ",
+			"dentro dele"
+		],
+		"pl": [
+			"w pokoju ",
+			"w ",
+			"w pomieszczeniu "
+		]
+	},
+	"everywhere": {
+		"en": [
+			"everywhere"
+		],
+		"fr": [
+			"partout"
+		],
+		"de": [
+			"überall"
+		],
+		"it": [
+			"dappertutto",
+			"ovunque"
+		],
+		"pt": [
+			"em toda parte",
+			"em todo lugar",
+			"ao redor"
+		],
+		"pt_br": [
+			"em toda parte",
+			"em todo lugar",
+			"ao redor"
+		],
+		"pl": [
+			"wszędzie"
+		]
+	},
+	"+": {
+		"en": [
+			"plus"
+		],
+		"fr": [
+			"plus"
+		],
+		"de": [
+			"plus"
+		],
+		"it": [
+			"più"
+		],
+		"pt": [
+			"mais"
+		],
+		"pt_br": [
+			"mais"
+		],
+		"pl": [
+			"plus"
+		]
+	},
+	"-": {
+		"en": [
+			"minus"
+		],
+		"fr": [
+			"moins"
+		],
+		"de": [
+			"minus"
+		],
+		"it": [
+			"meno"
+		],
+		"pt": [
+			"menos"
+		],
+		"pt_br": [
+			"menos"
+		],
+		"pl": [
+			"minus"
+		]
+	},
+	"*": {
+		"en": [
+			"times"
+		],
+		"fr": [
+			"fois"
+		],
+		"de": [
+			"mal"
+		],
+		"it": [
+			"per"
+		],
+		"pt": [
+			"vezes"
+		],
+		"pt_br": [
+			"vezes"
+		],
+		"pl": [
+			"razy"
+		]
+	},
+	"/": {
+		"en": [
+			"divided by"
+		],
+		"fr": [
+			"divisé par"
+		],
+		"de": [
+			"geteilt durch"
+		],
+		"it": [
+			"diviso"
+		],
+		"pt": [
+			"dividir"
+		],
+		"pt_br": [
+			"dividir"
+		],
+		"pl": [
+			"dzielone przez"
+		]
+	},
+	"%": {
+		"en": [
+			"modulo"
+		],
+		"fr": [
+			"modulo"
+		],
+		"de": [
+			"modulo"
+		],
+		"it": [
+			"modulo"
+		],
+		"pt": [
+			"modulo",
+			"porcentagem"
+		],
+		"pt_br": [
+			"modulo",
+			"porcentagem"
+		]
+	},
+	"cancelIntent": {
+		"en": [
+			"cancel",
+			"stop",
+			"shut up",
+			"silence"
+		],
+		"fr": [
+			"annule",
+			"annuler",
+			"stop",
+			"tais-toi",
+			"ta gueule"
+		],
+		"de": [
+			"abbrechen",
+			"annulieren",
+			"annuliere",
+			"ruhe",
+			"klappe zu"
+		],
+		"it": [
+			"annulla",
+			"sta 'zitto",
+			"silenzio"
+		],
+		"pt": [
+			"anular comando",
+			"cancelar",
+			"pare"
+		],
+		"pt_br": [
+			"anular comando",
+			"cancelar",
+			"pare",
+			"quieta",
+			"cancele",
+			"esquece"
+		],
+		"pl": [
+			"anuluj",
+			"stop",
+			"zamknij się",
+			"cisza",
+			"cicho bądź",
+			"bądź cicho",
+			"morda w kubeł",
+			"ucisz się"
+		]
+	},
+	"politness": {
+		"en": [
+			"please",
+			"could you",
+			"would you be so nice"
+		],
+		"fr": [
+			"s'il te plaît",
+			"pourrais-tu"
+		],
+		"de": [
+			"bitte",
+			"danke",
+			"kannst du",
+			"wärst du so nett",
+			"würdest du",
+			"könntest du"
+		],
+		"it": [
+			"per favore"
+		],
+		"pt": [
+			"por favor",
+			"por gentileza",
+			"faria esse favor",
+			"por obsequio"
+		],
+		"pt_br": [
+			"por favor",
+			"por gentileza",
+			"faria esse favor",
+			"por obsequio",
+			"faz favor"
+		]
+	}
+}
+

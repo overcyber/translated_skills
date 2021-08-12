@@ -1,0 +1,15 @@
+{
+	"infos": {
+		"name": "Alice",
+		"born": "15.05.2021",
+		"mood": "Happiness"
+	},
+	"stats": {
+		"happiness": 85,
+		"boredom": 30,
+		"anger": 0,
+		"frustration": 2,
+		"tiredness": 15
+	},
+	"users": {}
+}

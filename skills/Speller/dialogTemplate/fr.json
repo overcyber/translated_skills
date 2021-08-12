@@ -1,0 +1,29 @@
+{
+	"skill": "Speller",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "DoSpellWord",
+			"enabledByDefault": true,
+			"utterances": [
+				"comment écris-tu {maison:=>RandomWord}",
+				"comment s'écrit le mot {constitution:=>RandomWord}",
+				"peux-tu m'épeller le mot {descente:=>RandomWord} s'il te plait",
+				"épelle le mot {tricher:=>RandomWord} s'il te plait",
+				"pourrais-tu me dire comment écrire {galaxie:=>RandomWord}",
+				"j'aimerais que tu me dises comment écrire {machine:=>RandomWord}",
+				"épelle moi le mot {destruction:=>RandomWord}",
+				"comment on écris {chien:=>RandomWord} s'il te plait",
+				"comment écrit on le mot {chateau:=>RandomWord}"
+			],
+			"slots": [
+				{
+					"name": "RandomWord",
+					"required": false,
+					"type": "Alice/RandomWords",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

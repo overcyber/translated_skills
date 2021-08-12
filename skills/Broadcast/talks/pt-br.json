@@ -1,0 +1,128 @@
+{
+	"playbackRequest": {
+		"default": [
+			"Você vai querer que essa transmissão toque para você agora?",
+			"Você quer que esta transmissão seja enviada de volta para você agora?",
+			"Você quer ouvir a mensagem de volta agora?"
+		],
+		"short": [
+			"Devo jogar isso de volta agora?"
+		]
+	},
+	"playbackTime": {
+		"default": [
+			"A que horas você gostaria que jogasse de volta ?",
+			"Quando você quer que a mensagem seja reproduzida por",
+			"Quando você quer que eu jogue isso de volta ?"
+		],
+		"short": [
+			"Escolha um horário para a reprodução",
+			"A que horas você volta?"
+		]
+	},
+	"durationConfirmation": {
+		"default": [
+			"Sem problemas. Todos classificados ",
+			"Considere feito",
+			"Todos classificados. Vai jogar isso mais tarde"
+		],
+		"short": [
+			"Ordenado",
+			"Feito"
+		]
+	},
+	"noConfirmationHeard": {
+		"default": [
+			"Desculpe, eu não ouvi uma duração, por favor tente novamente",
+			"Eu não ouvi uma duração. Por favor, defina uma duração para a reprodução agora"
+		],
+		"short": [
+			"Qual a duração ?",
+			"Defina a duração"
+		]
+	},
+	"chooseARoom": {
+		"default": [
+			"Por favor, escolha um quarto com um satélite ativo nele",
+			"Que local você quer que isso transmita?"
+		],
+		"short": [
+			"Escolha um local",
+			"Qual sala ?"
+		]
+	},
+	"addAMessage": {
+		"default": [
+			"Por favor, adicione uma mensagem para transmitir.",
+			"Qual mensagem você quer transmitir?",
+			"Diga a mensagem que você deseja transmitir agora"
+		],
+		"short": [
+			"Qual a mensagem!",
+			"Adicione uma mensagem"
+		]
+	},
+	"replyRequest": {
+		"default": [
+			"Esperando por uma resposta",
+			"Estou ouvindo uma resposta",
+			"responda agora"
+		],
+		"short": [
+			"Estou ouvindo uma resposta",
+			"responda ou diga cancele"
+		]
+	},
+	"chooseAnotherLocation": {
+		"default": [
+			"Esse local não parece existir. Por favor, tente novamente",
+			"Não consigo encontrar esse local por favor tente novamente",
+			"Nada ativo nesse local, por favor selecione outro quarto"
+		],
+		"short": [
+			"tente denovo",
+			"Por favor, escolha uma sala ativa"
+		]
+	},
+	"delayError": {
+		"default": [
+			"Desculpe, mas já existe uma mensagem esperando, e eu não tenho a capacidade de armazenar mais ainda",
+			"Desculpe, minha memória é curta só lembro de uma coisa por vez"
+		],
+		"short": [
+			"Não consigo lembrar mais de uma mensagem ainda desculpe"
+		]
+	},
+	"replySelf": {
+		"default": [
+			"Não, não, de jeito nenhum. Eu não vou deixar você responder a si mesmo, isso é um sinal de insanidade",
+			"Você está realmente falando no último dispositivo de transmissão conhecido",
+			"Você está no dispositivo de transmissão anterior. Tente me perguntar novamente em outra sala"
+		],
+		"short": [
+			"Este é o dispositivo de transmissão anterior",
+			"Não, não pode fazer isso"
+		]
+	},
+	"message4previous": {
+		"default": [
+			"OK, qual mensagem devo enviar para o dispositivo {0}",
+			"Sem problemas. Qual é a mensagem de transmissão que eu devo enviar para o dispositivo {0}"
+		],
+		"short": [
+			"Qual a mensagem?",
+			"Qual é a transmissão?"
+		]
+	},
+	"previousMessageError": {
+		"default": [
+			"Parece-me que você não tem uma mensagem anteriormente transmitida",
+			"Desculpe, mas não consigo encontrar nenhuma transmissão recente para responder a",
+			"Não pode fazer isso desculpe. Tente dizer, envie uma transmissão em vez disso"
+		],
+		"short": [
+			"Desculpe, não posso fazer isso",
+			"Tente dizer, envie uma transmissão"
+		]
+	}
+}

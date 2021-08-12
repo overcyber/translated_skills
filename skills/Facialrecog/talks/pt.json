@@ -1,0 +1,27 @@
+{
+	"welcome": [
+		"Bem vindo \"{}\" ",
+		"Bem vindo \"{}\" de volta",
+	        "Seja bem vindo \"{}\" ",	
+		"Seja bem vindo \"{}\" estou feliz em te ver "
+	],
+	"unknownUser": [
+		"Olá \"{}\". Deseja cadastrar o rosto para reconhecimento facial ?",
+		"Oi \"{}\". Deseja que eu te reconheça da próxima vez que vier ? ",
+		"Eu não te conheço, posso tirar algumas fotos e te registrar ? "
+	],
+	"okAdd": [
+		"Ok, Me fale sobre você e em seguida vamos tirar algumas fotos.",
+		"Que bom, me fale sobre você e depois diga xis",
+		"Vamos lá!"
+	],
+	"okNotAdd": [
+		"Claro, Não vamos nós conhecer",
+		"Ok, sinta se em casa mesmo assim",
+		"Tudo bem, te chamarei de desconhecida então"
+	]
+
+
+}
+
+

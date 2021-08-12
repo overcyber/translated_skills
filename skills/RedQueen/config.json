@@ -1,0 +1,6 @@
+{
+	"disableMoodTraits": false,
+	"randomSpeaking": true,
+	"randomTalkMaxDelay": 1800,
+	"randomTalkMinDelay": 900
+}

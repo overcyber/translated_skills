@@ -1,0 +1,91 @@
+{
+	"skill": "Facialrecog",
+	"slotTypes": [
+		{
+			"name": "DummySlot",
+			"matchingStrictness": null,
+			"automaticallyExtensible": false,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "foo",
+					"synonyms": [
+						"bar"
+					]
+				}
+			]
+		},
+		{
+                        "name": "Alice/AnswerYesNo",
+                        "matchingStrictness": null,
+                        "automaticallyExtensible": false,
+                        "useSynonyms": true,
+                        "values": [
+                                {
+                                        "value": "sim",
+                                        "synonyms": [
+                                                "sim por favor",
+                                                "sim",
+                                                "claro",
+                                                "claro que sim"
+                                        ]
+                                },
+                                {
+                                        "value": "não",
+                                        "synonyms": [
+                                                "não obrigado você",
+                                                "não obrigado",
+                                                "nem",
+                                                "não",
+                                                "de jeito nenhum",
+                                                "nunca"
+                                        ]
+                                }
+                        ]
+                }
+	],
+	"intents": [
+		{
+			"name": "Dummy",
+			"enabledByDefault": true,
+			"utterances": [
+				"dummy {foo:=>DummySlotName}",
+				"bar"
+			],
+			"slots": [
+				{
+					"name": "DummySlotName",
+					"required": false,
+					"type": "DummySlot",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "AnswerYesOrNo",
+			"enabledByDefault": false,
+			"utterances": [
+				"{de jeito nenhum::=>Answer}",
+				"{certo:=>Answer}",
+				"{não:=>Answer}",
+				"{não obrigado a você:=>Answer}",
+				"{não, obrigado:=>Answer}",
+				"{sim por favor:=>Answer}",
+				"{sim:=>Answer}",
+				"{simm:=>Answer}",
+				"{não:=>Answer}",
+				"{ok:=>Answer}"
+			],
+			"slots": [
+				{
+					"name": "Answer",
+					"required": true,
+					"type": "Alice/AnswerYesNo",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}
+
+

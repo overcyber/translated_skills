@@ -1,0 +1,10 @@
+{
+	"debugIcon": false,
+	"debugMode": false,
+	"enableBackup": true,
+	"haAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1OGNlMjdhM2ZhM2E0NmZlOTZlMTgzNTQ2MWNlOTRlNyIsImlhdCI6MTYyNDczOTc0MywiZXhwIjoxOTQwMDk5NzQzfQ.kKBIF5qd8vWX-s0zrZoKDobNBTss-Ro0aVrcbJPty8k",
+	"haIpAddress": "https://overcyber.duckdns.org:8123/api/",
+	"temperatureUnits": "C",
+	"viewJsonPayload": false,
+	"wipeAll": false
+}

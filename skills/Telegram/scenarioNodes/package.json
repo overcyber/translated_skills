@@ -1,0 +1,14 @@
+{
+  "name": "telegramnotify",
+  "version": "1.0.2",
+  "category": "communication",
+  "dependencies": {},
+  "author": "lazzaAU",
+  "license": "GPLv3",
+  "node-red": {
+    "nodes": {
+      "telegramNotify": "telegramNotify.js"
+    }
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,29 @@
+{
+	"skill": "Speller",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "DoSpellWord",
+			"enabledByDefault": true,
+			"utterances": [
+				"how do you spell {cargo:=>RandomWord}",
+				"how is {constitution:=>RandomWord} spelled?",
+				"can you please tell me how to spell {odyssey:=>RandomWord}",
+				"please spell the word {hotdog:=>RandomWord}",
+				"could you spell me {galaxy:=>RandomWord}",
+				"please spell me the word {machine:=>RandomWord}",
+				"spell the word {destruction:=>RandomWord}",
+				"tell me how the word {planet:=>RandomWord} is spelled please",
+				"i need to know how to write {magician:=>RandomWord}"
+			],
+			"slots": [
+				{
+					"name": "RandomWord",
+					"required": false,
+					"type": "Alice/RandomWords",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}
