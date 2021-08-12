@@ -156,23 +156,38 @@
 			"name": "GoodNight",
 			"enabledByDefault": true,
 			"utterances": [
-				"eva é hora de dormir",
-				"tenha uma boa noite eva",
+				"Alice é hora de dormir",
+				"tenha uma boa noite Alice",
 				"tenha uma ótima noite",
-				"desejo-lhe uma boa noite eva",
-				"desejo que tenha boa noite eva",
+				"desejo-lhe uma boa noite Alice",
+				"desejo que tenha boa noite Alice",
 				"tenha uma boa noite e bons sonhos",
 				"tenha uma boa noite de sono",
 				"boa noite e durma bem",
-				"durma bem eva",
+				"durma bem Alice",
 				"vou dormir",
 				"Eu te desejo uma boa noite",
 				"hora de dormir, boa noite ",
-				"hora de dormir, boa noite eva",
+				"hora de dormir, boa noite Alice",
 				"boa noite minha AI"
 			],
 			"slots": []
 		},
+		{
+		    	"name": "GoodAfternoon",
+            		"enabledByDefault": true,
+            		"utterances": [
+                		"boa tarde alice",
+                		"boa tarde",
+                		"abra seus olhos já é tarde",
+				"já é de tarde Alice",
+                		"boa tarde pra você",
+                		"é hora da tarde Alice",
+                		"Alice já é tarde",
+                		"tarde"
+            	],
+                	"slots": []
+        	},
 		{
 			"name": "ChangeUserState",
 			"enabledByDefault": true,

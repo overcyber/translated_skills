@@ -167,6 +167,22 @@
 			"slots": []
 		},
 		{
+		    	"name": "GoodAfternoon",
+            		"enabledByDefault": true,
+            		"utterances": [
+                		"good afternoon alice",
+                		"good afternoon",
+                		"open your eyes it's afternoon",
+                		"it's afternoon alice",
+                		"good afternoon alice",
+                		"it's afternoon time alice",
+                		"alice afternoon",
+                		"afternoon alice",
+                		"afternoon"
+            	],
+                	"slots": []
+         	},
+		{
 			"name": "ChangeUserState",
 			"enabledByDefault": true,
 			"utterances": [
